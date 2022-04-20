@@ -12,8 +12,7 @@
     --botonPrincipal:linear-gradient(to right top,
     #0a3871, #1d2d57, #1f243f, #1b1b28, #131313);
 
-    --fondoCajalateral:radial-gradient(circle,
-    #f3f5fc, #f1f3fb, #eff2fb, #edf0fa, #ebeef9, #e8ebf6, #e5e9f4, #e2e6f1, #dde2eb, #d8dde6, #d3d9e0, #ced4da);
+    --fondoCajalateral:#131313;
     --opacidadFondo:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
 }
 body{
@@ -37,7 +36,7 @@ h1 {
     white-space: nowrap;
     border-right: 4px solid;
     margin: auto;
-    color: #DADC12;
+    color: #EFD510;
     font-size: 20px;
     width: 18ch;
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
@@ -132,8 +131,8 @@ button:hover,
     width: 270px;
     text-align: center;
     height: 530px;
-    background-image: var(--fondoCajalateral);
-    color: #343A40;
+    background: var(--fondoCajalateral);
+    color: #ffff;
     border-radius: 24px;
     transition: 1.3s;
 }
