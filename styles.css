@@ -3,15 +3,6 @@
     --mensajeCopiado:linear-gradient(to right top,
     #2ae12a, #21cd20, #18ba16, #0da70b, #009400);
 
-    --botonCopiar: linear-gradient(to right top,
-    #0a3871, #1d2d57, #1f243f, #1b1b28, #131313);
-
-    --hoverBotonCopiar: linear-gradient(to right top,
-    #609ed4, #4b83bb, #3669a2, #22508a, #0a3871);
-
-    --botonPrincipal:linear-gradient(to right top,
-    #0a3871, #1d2d57, #1f243f, #1b1b28, #131313);
-
     --fondoCajalateral:#131313;
     --opacidadFondo:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
 }
@@ -153,9 +144,6 @@ button:hover,
     color: #F3F5FC;
     font-size: 1.2em;
     border: none;
-}
-.texto2 #copiar:hover{
-    background-image:var(--hoverBotonCopiar);
 }
 /*estilos de copiado error y no hay texto para copiar*/
 .exito{
