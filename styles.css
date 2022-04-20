@@ -145,6 +145,9 @@ button:hover,
     font-size: 1.2em;
     border: none;
 }
+.texto2 #copiar:hover{
+    cursor:pointer;
+}
 /*estilos de copiado error y no hay texto para copiar*/
 .exito{
     margin:auto;
