@@ -12,9 +12,6 @@
     --botonPrincipal:linear-gradient(to right top,
     #0a3871, #1d2d57, #1f243f, #1b1b28, #131313);
 
-    --botonHover:linear-gradient(to right top,
-    #000000, #050505, #0b0b0b, #0f0f0f, #131313);
-
     --fondoCajalateral:radial-gradient(circle,
     #f3f5fc, #f1f3fb, #eff2fb, #edf0fa, #ebeef9, #e8ebf6, #e5e9f4, #e2e6f1, #dde2eb, #d8dde6, #d3d9e0, #ced4da);
     --opacidadFondo:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
@@ -40,7 +37,7 @@ h1 {
     white-space: nowrap;
     border-right: 4px solid;
     margin: auto;
-    color: #fff;
+    color: #DADC12;
     font-size: 20px;
     width: 18ch;
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
@@ -105,11 +102,11 @@ div.advertencia{
 }
 /*estilos botones*/
 button.encriptar{
-    width: 330px;
+    width: 300px;
     height: 60px;
     border-radius: 24px;
     border: none;
-    background:#2c73d2;
+    background:#006e23;
     color: #F3F5FC;
     font-size: 1.2em;
     cursor: pointer;
@@ -117,12 +114,12 @@ button.encriptar{
 }
 button#desEncriptar{
     background: var(--fondoCajalateral);
-    border: solid 1px #0A3871;
+    border: none;
     color: #0A3871;
 }
 button:hover,
 #desEncriptar:hover{
-    background-image: var(--botonHover);
+    background: #131313;
     color: #F3F5FC;
 }
 /*estilos caja derecha*/
@@ -151,7 +148,7 @@ button:hover,
 .texto2 #copiar{
     width: 300px;
     height: 60px;
-    background-image:var(--botonCopiar);
+    background:#006e23;
     border-radius: 24px;
     margin-top: 66%;
     color: #F3F5FC;
