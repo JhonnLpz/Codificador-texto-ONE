@@ -36,7 +36,7 @@ h1 {
     white-space: nowrap;
     border-right: 4px solid;
     margin: auto;
-    color: #EFD510;
+    color: #F3F5FC;
     font-size: 20px;
     width: 18ch;
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
@@ -114,7 +114,7 @@ button.encriptar{
 button#desEncriptar{
     background: var(--fondoCajalateral);
     border: none;
-    color: #0A3871;
+    color: #F3F5FC;
 }
 button:hover,
 #desEncriptar:hover{
@@ -132,7 +132,7 @@ button:hover,
     text-align: center;
     height: 530px;
     background: var(--fondoCajalateral);
-    color: #ffff;
+    color: #F3F5FC;
     border-radius: 24px;
     transition: 1.3s;
 }
@@ -142,7 +142,7 @@ button:hover,
 #result{
     width: 250px;
     margin: 0;
-    color: #0a3871;
+    color: #F3F5FC;
 }
 .texto2 #copiar{
     width: 300px;
