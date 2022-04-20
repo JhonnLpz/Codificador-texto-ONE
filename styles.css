@@ -109,7 +109,7 @@ button.encriptar{
     height: 60px;
     border-radius: 24px;
     border: none;
-    background-image: var(--botonPrincipal);
+    background:green;
     color: #F3F5FC;
     font-size: 1.2em;
     cursor: pointer;
