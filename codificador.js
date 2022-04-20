@@ -11,7 +11,6 @@
         return salida;
     }
 //Encriptar
-
     function encriptar() {
 
         var frase = textarea1.value;
@@ -25,10 +24,10 @@
         else{
             //aqui se reemplaza los valores insertados en el textarea inicial
             var cambiar = frase.replace(/e/igm,"enter");
-            cambiar = cambiar.replace(/i/igm,"imes");
-            cambiar = cambiar.replace(/a/igm,"ai");
-            cambiar = cambiar.replace(/o/igm,"ober");
-            cambiar = cambiar.replace(/u/igm,"ufat");
+                cambiar = cambiar.replace(/i/igm,"imes");
+                cambiar = cambiar.replace(/a/igm,"ai");
+                cambiar = cambiar.replace(/o/igm,"ober");
+                cambiar = cambiar.replace(/u/igm,"ufat");
             document.getElementById("result").innerHTML=cambiar;
             //advertencia de caracteres
             document.getElementById("ad").style.color="#E9ECF8";
@@ -42,16 +41,13 @@
         //intercambio de cards
         document.getElementById("resultado_main").style.display="flex";
         document.getElementById("sinTexto").style.display="none";
-
         //repitiendo condicion para regresar la card de sinTexto
         if ((textarea1.value).length==0){
             document.getElementById("resultado_main").style.display="none";
             document.getElementById("sinTexto").style.display="flex";
         }
-
     }
 //Desencriptar el texto
-
     function desEncriptar() {
 
         var frase = textarea1.value;
@@ -64,10 +60,10 @@
         }
         else{
             var cambiar1 = frase.replace(/enter/igm,"e");
-            cambiar1 = cambiar1.replace(/imes/igm,"i");
-            cambiar1 = cambiar1.replace(/ai/igm,"a");
-            cambiar1 = cambiar1.replace(/ober/igm,"o");
-            cambiar1 = cambiar1.replace(/ufat/igm,"u");
+                cambiar1 = cambiar1.replace(/imes/igm,"i");
+                cambiar1 = cambiar1.replace(/ai/igm,"a");
+                cambiar1 = cambiar1.replace(/ober/igm,"o");
+                cambiar1 = cambiar1.replace(/ufat/igm,"u");
             document.getElementById("result").innerHTML=cambiar1;
             //advertencia de caracteres
             document.getElementById("ad").style.color="#E9ECF8";
@@ -77,13 +73,17 @@
         document.getElementById("exito2").style.display="none";
         document.getElementById("exito").style.display="none";
         document.getElementById("exito3").style.display="none";
+         //intercambio de cards
         document.getElementById("resultado_main").style.display="flex";
         document.getElementById("sinTexto").style.display="none";
+         //repitiendo condicion para regresar la card de sinTexto
+        if ((textarea1.value).length==0){
+            document.getElementById("resultado_main").style.display="none";
+            document.getElementById("sinTexto").style.display="flex";
     }
 
 
 //funcion para copiar texto al portapapeles
-
     function copiar() {
 
         const copiarText = document.getElementById("result");
@@ -103,9 +103,7 @@
             });
         }
     }
-
-//lamado a los botones de encriptar desencriptar y copiar
-
+//llamado a los botones de encriptar desencriptar y copiar
     var btnEnc=document.getElementById("encriptar");
     btnEnc.onclick=encriptar;
 
