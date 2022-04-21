@@ -2,7 +2,6 @@
 :root{
     --mensajeCopiado:linear-gradient(to right top,
     #2ae12a, #21cd20, #18ba16, #0da70b, #009400);
-
     --fondoCajalateral:#131313;
     --opacidadFondo:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
 }
@@ -20,7 +19,6 @@ body{
     padding: 25px;
     text-align: center;
 }
-
 h1 {
     display: block;
     font-family: monospace;
@@ -33,13 +31,12 @@ h1 {
     animation: typing 2s steps(18), blink .5s infinite step-end alternate;
     overflow:hidden;
     }
-
-    @keyframes typing {
+@keyframes typing {
     from { width: 0}
-    }
-    @keyframes blink {
+}
+@keyframes blink {
     50% { border-color: transparent}
-    }
+}
 section{
     display: flex;
     width: 100%;
@@ -154,18 +151,16 @@ button:hover{
     cursor:pointer;
 }
 /*estilos de copiado error y no hay texto para copiar*/
-.exito{
-    margin:auto;
-    transition: 1.3s;
-}
 #exito{
     display: none;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 80%;
+    color: #fff;
     height: 30px;
     border-radius: 24px;
     background: var(--mensajeCopiado);
+    transition: 1.3s;
 }
 #exito2{
     display: none;
@@ -196,7 +191,7 @@ footer{
     padding: 20px;
     text-align: center;
     color: #F3F5FC;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 footer ul{
     list-style: none;
@@ -221,4 +216,18 @@ a:hover{
 ion-icon{
     width: 50px;
     height: 50px;
+}
+/*barra scroll firefox*/
+* {
+    scrollbar-width: thin;
+    scrollbar-color:#006e23 #131313;
+}
+/*barra de scroll chrome*/
+::-webkit-scrollbar{
+    background-color: #131313;
+    width: 11px;
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to bottom, #006e23, #458620, #779d1c, #abb31d, #e2c628);
+    border-radius: 5px;
 }
