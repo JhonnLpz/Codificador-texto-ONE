@@ -41,7 +41,8 @@
         //intercambio de cards
         document.getElementById("resultado_main").style.display="flex";
         document.getElementById("sinTexto").style.display="none";
-        //repitiendo condicion para regresar la card de sinTexto
+
+        //regresando la card de sinTexto
         if ((textarea1.value).length==0){
             document.getElementById("resultado_main").style.display="none";
             document.getElementById("sinTexto").style.display="flex";
@@ -76,7 +77,6 @@
          //intercambio de cards
         document.getElementById("resultado_main").style.display="flex";
         document.getElementById("sinTexto").style.display="none";
-         
         if ((textarea1.value).length==0){
             document.getElementById("resultado_main").style.display="none";
             document.getElementById("sinTexto").style.display="flex";
