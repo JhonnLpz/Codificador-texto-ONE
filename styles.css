@@ -129,6 +129,9 @@ button:hover{
     border-radius: 24px;
     transition: 1.3s;
 }
+.texto2 img{
+    width: 100%;
+}
 #resultado_main{
     display: none;
 }
