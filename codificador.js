@@ -76,7 +76,11 @@
          //intercambio de cards
         document.getElementById("resultado_main").style.display="flex";
         document.getElementById("sinTexto").style.display="none";
-        
+         
+        if ((textarea1.value).length==0){
+            document.getElementById("resultado_main").style.display="none";
+            document.getElementById("sinTexto").style.display="flex";
+        }
     }
 
 
