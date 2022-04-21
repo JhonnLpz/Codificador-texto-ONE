@@ -1,5 +1,4 @@
     var textarea1=document.getElementById("entrada");
-    textarea1.focus();
 //validar
     function validarTexto(string){
         var salida = '';
