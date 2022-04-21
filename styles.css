@@ -107,10 +107,12 @@ button#desEncriptar{
     border: none;
     color: #F3F5FC;
 }
-button:hover,
-#desEncriptar:hover{
+button:hover{
     background: #131313;
     color: #F3F5FC;
+}
+#desEncriptar:hover{
+    background: #006E23;
 }
 /*estilos caja derecha*/
 .texto2{
