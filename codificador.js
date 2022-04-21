@@ -1,4 +1,5 @@
     var textarea1=document.getElementById("entrada");
+
 //validar
     function validarTexto(string){
         var salida = '';
@@ -9,6 +10,7 @@
             salida += string.charAt(i);
         return salida;
     }
+
 //Encriptar
     function encriptar() {
 
