@@ -1,6 +1,7 @@
     var textarea1=document.getElementById("entrada");
 
 //validar
+
     function validarTexto(string){
         var salida = '';
         //añadiendo las letras validas
@@ -12,6 +13,7 @@
     }
 
 //Encriptar
+
     function encriptar() {
 
         var frase = textarea1.value;
@@ -49,7 +51,9 @@
             document.getElementById("sinTexto").style.display="flex";
         }
     }
+
 //Desencriptar el texto
+
     function desEncriptar() {
 
         var frase = textarea1.value;
@@ -86,6 +90,7 @@
 
 
 //funcion para copiar texto al portapapeles
+
     function copiar() {
 
         const copiarText = document.getElementById("result");
@@ -105,7 +110,9 @@
             });
         }
     }
+
 //llamado a los botones de encriptar desencriptar y copiar
+
     var btnEnc=document.getElementById("encriptar");
     btnEnc.onclick=encriptar;
 
