@@ -107,6 +107,7 @@ button#desEncriptar{
 button:hover{
     background: #131313;
     color: #F3F5FC;
+    transition: 0.8s;
 }
 #desEncriptar:hover{
     background: #006E23;
@@ -149,6 +150,9 @@ button:hover{
 }
 .texto2 #copiar:hover{
     cursor:pointer;
+    background:#F3F5FC ;
+    color: #131313;
+    transition: 0.8s;
 }
 /*estilos de copiado error y no hay texto para copiar*/
 #exito{
@@ -210,12 +214,16 @@ a:link, a:visited, a:active{
     color:#E9ECF8;
     text-decoration: none;
 }
-a:hover{
-    color: #ced4da;
+ul a:hover{
+    color: #006e23;
 }
 ion-icon{
     width: 50px;
     height: 50px;
+}
+ion-icon:hover{
+    transform: translateY(-10px);
+    transition: 0.8s;
 }
 /*barra scroll firefox*/
 * {
