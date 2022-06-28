@@ -1,4 +1,5 @@
-# Challenge-Oracle-ONE-
+# Codificador/descodificador de texto
+
 Codificador y decodificador de texto, realizado para el challenge de oracle ONE y alura latam 
 
 link al programa:
